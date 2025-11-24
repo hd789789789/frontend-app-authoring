@@ -289,7 +289,7 @@ const messages = defineMessages({
   },
   proctoredExamLockedAndisProctoredExamAlert: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.proctoredExamLockedAndisProctoredExamAlert',
-    defaultMessage: 'Bài kiểm tra có giám sát này đã được phát hành cho người học. Bạn không thể chuyển đổi nó sang loại bài kiểm tra đặc biệt khác. Bạn có thể hoán đổi tiểu mục này trở lại thành bài kiểm tra cơ bản bằng cách chọn 'Không có', hoặc bài kiểm tra có giới hạn thời gian, nhưng bạn SẼ KHÔNG thể định cấu hình nó làm bài kiểm tra có giám sát trong tương lai.',
+    defaultMessage: 'Bài kiểm tra có giám sát này đã được phát hành cho người học. Bạn không thể chuyển đổi nó sang loại bài kiểm tra đặc biệt khác. Bạn có thể hoán đổi tiểu mục này trở lại thành bài kiểm tra cơ bản bằng cách chọn Không có, hoặc bài kiểm tra có giới hạn thời gian, nhưng bạn SẼ KHÔNG thể định cấu hình nó làm bài kiểm tra có giám sát trong tương lai.',
   },
   reviewRulesLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.reviewRulesLabel',
