@@ -83,7 +83,7 @@ const messages = defineMessages({
   },
   errorMessage1: {
     id: 'course-authoring.schedule.schedule-section.error-message-1',
-    defaultMessage: 'Hành vi hiển thị chứng chỉ phải là 'Một ngày sau ngày kết thúc khóa học' nếu ngày cung cấp chứng chỉ được đặt.',
+    defaultMessage: 'Hành vi hiển thị chứng chỉ phải là Một ngày sau ngày kết thúc khóa học nếu ngày cung cấp chứng chỉ được đặt.',
   },
   errorMessage2: {
     id: 'course-authoring.schedule.schedule-section.error-message-2',
