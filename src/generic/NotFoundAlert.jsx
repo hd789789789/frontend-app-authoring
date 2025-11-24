@@ -6,7 +6,7 @@ const NotFoundAlert = () => (
   <Alert variant="danger" data-testid="notFoundAlert">
     <FormattedMessage
       id="authoring.alert.error.notfound"
-      defaultMessage="Not found."
+      defaultMessage="Không tìm thấy."
     />
   </Alert>
 );

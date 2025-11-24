@@ -3,55 +3,55 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   stepperUploadingTitle: {
     id: 'course-authoring.import.stepper.title.uploading',
-    defaultMessage: 'Uploading',
+    defaultMessage: 'Đang tải lên',
   },
   stepperUnpackingTitle: {
     id: 'course-authoring.import.stepper.title.unpacking',
-    defaultMessage: 'Unpacking',
+    defaultMessage: 'Đang giải nén',
   },
   stepperVerifyingTitle: {
     id: 'course-authoring.import.stepper.title.verifying',
-    defaultMessage: 'Verifying',
+    defaultMessage: 'Đang xác minh',
   },
   stepperUpdatingTitle: {
     id: 'course-authoring.import.stepper.title.updating',
-    defaultMessage: 'Updating сourse',
+    defaultMessage: 'Đang cập nhật khóa học',
   },
   stepperSuccessTitle: {
     id: 'course-authoring.import.stepper.title.success',
-    defaultMessage: 'Success',
+    defaultMessage: 'Thành công',
   },
   stepperUploadingDescription: {
     id: 'course-authoring.import.stepper.description.uploading',
-    defaultMessage: 'Transferring your file to our servers',
+    defaultMessage: 'Đang chuyển tệp của bạn đến máy chủ của chúng tôi',
   },
   stepperUnpackingDescription: {
     id: 'course-authoring.import.stepper.description.unpacking',
-    defaultMessage: 'Expanding and preparing folder/file structure (You can now leave this page safely, but avoid making drastic changes to content until this import is complete)',
+    defaultMessage: 'Đang mở rộng và chuẩn bị cấu trúc thư mục/tệp (Bạn có thể rời khỏi trang này một cách an toàn, nhưng tránh thực hiện thay đổi lớn đối với nội dung cho đến khi quá trình nhập này hoàn tất)',
   },
   stepperVerifyingDescription: {
     id: 'course-authoring.import.stepper.description.verifying',
-    defaultMessage: 'Reviewing semantics, syntax, and required data',
+    defaultMessage: 'Đang xem xét ngữ nghĩa, cú pháp và dữ liệu cần thiết',
   },
   stepperUpdatingDescription: {
     id: 'course-authoring.import.stepper.description.updating',
-    defaultMessage: 'Integrating your imported content into this course. This process might take longer with larger courses.',
+    defaultMessage: 'Đang tích hợp nội dung đã nhập của bạn vào khóa học này. Quá trình này có thể mất nhiều thời gian hơn với các khóa học lớn hơn.',
   },
   stepperSuccessDescription: {
     id: 'course-authoring.import.stepper.description.success',
-    defaultMessage: 'Your imported content has now been integrated into this course',
+    defaultMessage: 'Nội dung đã nhập của bạn đã được tích hợp vào khóa học này',
   },
   viewOutlineButton: {
     id: 'course-authoring.import.stepper.button.outline',
-    defaultMessage: 'View updated outline',
+    defaultMessage: 'Xem đề cương đã cập nhật',
   },
   defaultErrorMessage: {
     id: 'course-authoring.import.stepper.error.default',
-    defaultMessage: 'Error importing course',
+    defaultMessage: 'Lỗi khi nhập khóa học',
   },
   stepperHeaderTitle: {
     id: 'course-authoring.import.stepper.header.title',
-    defaultMessage: 'Course import status',
+    defaultMessage: 'Trạng thái nhập khóa học',
   },
 });
 

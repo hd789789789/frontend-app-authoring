@@ -446,7 +446,7 @@ const ProctoringSettings = ({ onClose }) => {
         <FormattedMessage
           id="authoring.proctoring.alert.success"
           defaultMessage={`
-            Proctored exam settings saved successfully. {studioCourseRunURL}.
+            Đã lưu cài đặt kỳ thi giám sát thành công. {studioCourseRunURL}.
           `}
           values={{
             studioCourseRunURL: (
@@ -465,9 +465,7 @@ const ProctoringSettings = ({ onClose }) => {
       <FormattedMessage
         id="authoring.proctoring.alert.error"
         defaultMessage={`
-          We encountered a technical error while trying to save proctored exam settings.
-          This might be a temporary issue, so please try again in a few minutes.
-          If the problem persists, please go to the {support_link} for help.
+          Chúng tôi gặp lỗi kỹ thuật khi cố gắng lưu cài đặt kỳ thi giám sát. Đây có thể là sự cố tạm thời, vui lòng thử lại sau vài phút. Nếu vấn đề vẫn tiếp diễn, vui lòng truy cập {support_link} để được trợ giúp.
         `}
         values={{
           support_link: (
@@ -484,9 +482,7 @@ const ProctoringSettings = ({ onClose }) => {
         <FormattedMessage
           id="authoring.proctoring.alert.error.forbidden"
           defaultMessage={`
-            You do not have permission to edit proctored exam settings for this course.
-            If you are a course team member and this problem persists,
-            please go to the {support_link} for help.
+            Bạn không có quyền chỉnh sửa cài đặt kỳ thi giám sát cho khóa học này. Nếu bạn là thành viên đội ngũ khóa học và vấn đề này vẫn tiếp diễn, vui lòng truy cập {support_link} để được trợ giúp.
           `}
           values={{
             support_link: (

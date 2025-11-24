@@ -3,31 +3,31 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   sectionTitle1: {
     id: 'course-authoring.course-rerun.sidebar.section-1.title',
-    defaultMessage: 'When will my course re-run start?',
+    defaultMessage: 'Khi nào khóa học chạy lại của tôi sẽ bắt đầu?',
   },
   sectionDescription1: {
     id: 'course-authoring.course-rerun.sidebar.section-1.description',
-    defaultMessage: 'The new course is set to start on',
+    defaultMessage: 'Khóa học mới được thiết lập bắt đầu vào',
   },
   sectionTitle2: {
     id: 'course-authoring.course-rerun.sidebar.section-2.title',
-    defaultMessage: 'What transfers from the original course?',
+    defaultMessage: 'Những gì được chuyển từ khóa học gốc?',
   },
   sectionDescription2: {
     id: 'course-authoring.course-rerun.sidebar.section-2.description',
-    defaultMessage: 'The new course has the same course outline and content as the original course. All problems, videos, announcements, and other files are duplicated to the new course.',
+    defaultMessage: 'Khóa học mới có cùng phác thảo và nội dung khóa học như khóa học gốc. Tất cả các bài tập, video, thông báo và các tệp khác được sao chép sang khóa học mới.',
   },
   sectionTitle3: {
     id: 'course-authoring.course-rerun.sidebar.section-3.title',
-    defaultMessage: 'What does not transfer from the original course?',
+    defaultMessage: 'Những gì không được chuyển từ khóa học gốc?',
   },
   sectionDescription3: {
     id: 'course-authoring.course-rerun.sidebar.section-3.description',
-    defaultMessage: 'You are the only member of the new course\'s staff. No students are enrolled in the course, and there is no student data. There is no content in the discussion topics or wiki.',
+    defaultMessage: 'Bạn là thành viên duy nhất trong đội ngũ khóa học mới. Không có sinh viên nào đăng ký khóa học và không có dữ liệu sinh viên. Không có nội dung nào trong các chủ đề thảo luận hoặc wiki.',
   },
   sectionLink4: {
     id: 'course-authoring.course-rerun.sidebar.section-4.link',
-    defaultMessage: 'Learn more about course re-runs',
+    defaultMessage: 'Tìm hiểu thêm về khóa học chạy lại',
   },
 });
 

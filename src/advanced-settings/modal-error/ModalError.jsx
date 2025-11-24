@@ -30,8 +30,7 @@ const ModalError = ({
     <p>
       <FormattedMessage
         id="course-authoring.advanced-settings.modal.error.description"
-        defaultMessage="There was {errorCounter} while trying to save the course settings in the database.
-            Please check the following validation feedbacks and reflect them in your course settings:"
+        defaultMessage="Có {errorCounter} khi cố gắng lưu cài đặt khóa học vào cơ sở dữ liệu. Vui lòng kiểm tra các phản hồi xác thực sau và phản ánh chúng trong cài đặt khóa học của bạn:"
         values={{ errorCounter: <strong>{errorList.length} validation error </strong> }}
       />
     </p>

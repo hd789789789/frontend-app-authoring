@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   deleteDialogTitle: {
     id: 'course-authoring.taxonomy-list.dialog.delete.title',
-    defaultMessage: 'Delete "{taxonomyName}"',
+    defaultMessage: 'Xóa "{taxonomyName}"',
   },
   deleteDialogBody: {
     id: 'course-authoring.taxonomy-list.dialog.delete.body',
-    defaultMessage: 'Warning! You are about to delete a taxonomy containing {tagsCount} tags. Assigned organizations will no longer be able to access the taxonomy, and any tags applied to course content will be removed.',
+    defaultMessage: 'Cảnh báo! Bạn sắp xóa một phân loại có chứa {tagsCount} thẻ. Các tổ chức được gán sẽ không còn có thể truy cập phân loại này và bất kỳ thẻ nào được áp dụng cho nội dung khóa học sẽ bị xóa.',
   },
   deleteDialogConfirmLabel: {
     id: 'course-authoring.taxonomy-list.dialog.delete.confirm.label',
-    defaultMessage: 'Type {deleteLabel} to confirm',
+    defaultMessage: 'Nhập {deleteLabel} để xác nhận',
   },
   deleteDialogConfirmDeleteLabel: {
     id: 'course-authoring.taxonomy-list.dialog.delete.confirmDelete.label',
@@ -19,11 +19,11 @@ const messages = defineMessages({
   },
   deleteDialogCancelLabel: {
     id: 'course-authoring.taxonomy-list.dialog.delete.cancel.label',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   deleteDialogDeleteLabel: {
     id: 'course-authoring.taxonomy-list.dialog.delete.delete.label',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
   },
 });
 

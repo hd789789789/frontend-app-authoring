@@ -7,64 +7,64 @@ const messages = defineMessages({
   },
   headingTitle: {
     id: 'course-authoring.course-optimizer.heading.title',
-    defaultMessage: 'Course Optimizer',
+    defaultMessage: 'Tối ưu hóa khóa học',
   },
   headingSubtitle: {
     id: 'course-authoring.course-optimizer.heading.subtitle',
-    defaultMessage: 'Tools',
+    defaultMessage: 'Công cụ',
   },
   description1: {
     id: 'course-authoring.course-optimizer.description1',
-    defaultMessage: `This tool will scan the published version of your course for broken links.
-    Unpublished changes will not be included in the scan.
-    Note that this process will take more time for larger courses.
-    To update the scan after you have published new changes to your course,
-    click the "Start Scanning" button again.
+    defaultMessage: `Công cụ này sẽ quét phiên bản đã xuất bản của khóa học của bạn để tìm liên kết hỏng.
+    Các thay đổi chưa xuất bản sẽ không được bao gồm trong quá trình quét.
+    Lưu ý rằng quá trình này sẽ mất nhiều thời gian hơn đối với các khóa học lớn hơn.
+    Để cập nhật quá trình quét sau khi bạn đã xuất bản các thay đổi mới vào khóa học của mình,
+    nhấp lại vào nút "Bắt đầu quét".
     `,
   },
   description2: {
     id: 'course-authoring.course-optimizer.description2',
-    defaultMessage: 'Broken links are links pointing to external websites, images, or videos that do not exist or are no longer available. These links can cause issues for learners when they try to access the content.',
+    defaultMessage: 'Liên kết hỏng là các liên kết trỏ đến các trang web, hình ảnh hoặc video bên ngoài không tồn tại hoặc không còn khả dụng. Những liên kết này có thể gây ra vấn đề cho người học khi họ cố gắng truy cập nội dung.',
   },
   card1Title: {
     id: 'course-authoring.course-optimizer.card1.title',
-    defaultMessage: 'Scan my course for broken links',
+    defaultMessage: 'Quét khóa học của tôi để tìm liên kết hỏng',
   },
   card2Title: {
     id: 'course-authoring.course-optimizer.card2.title',
-    defaultMessage: 'Scan my course for broken links',
+    defaultMessage: 'Quét khóa học của tôi để tìm liên kết hỏng',
   },
   buttonTitle: {
     id: 'course-authoring.course-optimizer.button.title',
-    defaultMessage: 'Start Scanning',
+    defaultMessage: 'Bắt đầu quét',
   },
   preparingStepTitle: {
     id: 'course-authoring.course-optimizer.peparing-step.title',
-    defaultMessage: 'Preparing',
+    defaultMessage: 'Đang chuẩn bị',
   },
   preparingStepDescription: {
     id: 'course-authoring.course-optimizer.peparing-step.description',
-    defaultMessage: 'Preparing to start the scan',
+    defaultMessage: 'Đang chuẩn bị để bắt đầu quét',
   },
   scanningStepTitle: {
     id: 'course-authoring.course-optimizer.scanning-step.title',
-    defaultMessage: 'Scanning',
+    defaultMessage: 'Đang quét',
   },
   scanningStepDescription: {
     id: 'course-authoring.course-optimizer.scanning-step.description',
-    defaultMessage: 'Scanning for broken links in your course (You can now leave this page safely, but avoid making drastic changes to content until the scan is complete)',
+    defaultMessage: 'Đang quét liên kết hỏng trong khóa học của bạn (Bạn có thể rời khỏi trang này một cách an toàn, nhưng tránh thực hiện thay đổi lớn đối với nội dung cho đến khi quá trình quét hoàn tất)',
   },
   successStepTitle: {
     id: 'course-authoring.course-optimizer.success-step.title',
-    defaultMessage: 'Success',
+    defaultMessage: 'Thành công',
   },
   successStepDescription: {
     id: 'course-authoring.course-optimizer.success-step.description',
-    defaultMessage: 'Your Scan is complete. You can view the list of results below.',
+    defaultMessage: 'Quá trình quét của bạn đã hoàn tất. Bạn có thể xem danh sách kết quả bên dưới.',
   },
   lastScannedOn: {
     id: 'course-authoring.course-optimizer.last-scanned-on',
-    defaultMessage: 'Last scanned on',
+    defaultMessage: 'Quét lần cuối vào',
   },
 });
 

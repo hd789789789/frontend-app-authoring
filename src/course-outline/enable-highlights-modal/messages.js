@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'course-authoring.course-outline.status-bar.modal.title',
-    defaultMessage: 'Enable course highlight emails',
+    defaultMessage: 'Bật email điểm nổi bật khóa học',
   },
   description_1: {
     id: 'course-authoring.course-outline.status-bar.modal.description-1',
-    defaultMessage: 'When you enable course highlight emails, learners automatically receive email messages for each section that has highlights. You cannot disable highlights after you start sending them.',
+    defaultMessage: 'Khi bạn bật email điểm nổi bật khóa học, người học sẽ tự động nhận được email cho mỗi phần có điểm nổi bật. Bạn không thể tắt điểm nổi bật sau khi bắt đầu gửi chúng.',
   },
   description_2: {
     id: 'course-authoring.course-outline.status-bar.modal.description-2',
-    defaultMessage: 'Are you sure you want to enable course highlight emails?',
+    defaultMessage: 'Bạn có chắc chắn muốn bật email điểm nổi bật khóa học không?',
   },
   link: {
     id: 'course-authoring.course-outline.status-bar.modal.link',
-    defaultMessage: 'Learn more',
+    defaultMessage: 'Tìm hiểu thêm',
   },
   cancelButton: {
     id: 'course-authoring.course-outline.status-bar.modal.cancelButton',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   submitButton: {
     id: 'course-authoring.course-outline.status-bar.modal.submitButton',
-    defaultMessage: 'Enable',
+    defaultMessage: 'Bật',
   },
 });
 

@@ -5,7 +5,7 @@ exports[`ProblemEditor snapshots block failed, message appears 1`] = `
   className="text-center p-6"
 >
   <FormattedMessage
-    defaultMessage="Problem failed to load"
+    defaultMessage="Sự cố không tải được"
     description="Error message for problem block failing to load"
     id="authoring.problemEditor.blockFailed"
   />

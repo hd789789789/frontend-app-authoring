@@ -32,7 +32,7 @@ const FilterStatus = ({
             iconAfter={Close}
             iconAfterAlt={intl.formatMessage({
               id: 'pgn.DataTable.FilterStatus.removeFilter',
-              defaultMessage: 'Remove this filter',
+              defaultMessage: 'Xóa bộ lọc này',
               description: 'Remove one of the applied filters.',
             })}
             onIconAfterClick={() => removeFilter(value, setFilter, setAllFilters, state)}
@@ -50,7 +50,7 @@ const FilterStatus = ({
             ? (
               <FormattedMessage
                 id="pgn.DataTable.FilterStatus.clearFiltersText"
-                defaultMessage="Clear filters"
+                defaultMessage="Xóa bộ lọc"
                 description="A text that appears on the `Clear filters` button"
               />
             )

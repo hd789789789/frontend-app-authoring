@@ -24,7 +24,7 @@ const BasicSection = ({
   const emailSubject = intl.formatMessage(
     {
       id: 'course-authoring.schedule.basic.email.subject',
-      defaultMessage: 'Enroll in {courseDisplayName}.',
+      defaultMessage: 'Đăng ký vào {courseDisplayName}.',
     },
     { courseDisplayName },
   );
@@ -33,7 +33,7 @@ const BasicSection = ({
     {
       id: 'course-authoring.schedule.basic.email.body',
       defaultMessage:
-        'The course {courseDisplayName}, provided by {platformName}, is open for enrollment. Please navigate to this course at {lmsLinkForAboutPage} to enroll.',
+        'Khóa học {courseDisplayName}, được cung cấp bởi {platformName}, đang mở đăng ký. Vui lòng truy cập khóa học này tại {lmsLinkForAboutPage} để đăng ký.',
     },
     {
       courseDisplayName,
@@ -45,7 +45,7 @@ const BasicSection = ({
   const promotionTitle = (
     <FormattedMessage
       id="course-authoring.schedule.basic.promotion.title"
-      defaultMessage="Course summary page {smallText}"
+      defaultMessage="Trang tóm tắt khóa học {smallText}"
       values={{
         smallText: <small>(for student enrollment and access)</small>,
       }}

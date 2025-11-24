@@ -37,7 +37,7 @@ const IntroducingSection = ({
   const overviewHelpText = (
     <FormattedMessage
       id="course-authoring.schedule-section.introducing.course-overview.help-text"
-      defaultMessage="Introductions, prerequisites, FAQs that are used on {hyperlink} (formatted in HTML)"
+      defaultMessage="Giới thiệu, điều kiện tiên quyết, câu hỏi thường gặp được sử dụng trên {hyperlink} (được định dạng trong HTML)"
       values={{
         hyperlink: (
           <Hyperlink
@@ -55,7 +55,7 @@ const IntroducingSection = ({
   const aboutSidebarHelpText = (
     <FormattedMessage
       id="course-authoring.schedule-section.introducing.about-sidebar.help-text"
-      defaultMessage="Custom sidebar content for {hyperlink} (formatted in HTML)"
+      defaultMessage="Nội dung thanh bên tùy chỉnh cho {hyperlink} (được định dạng trong HTML)"
       values={{
         hyperlink: (
           <Hyperlink

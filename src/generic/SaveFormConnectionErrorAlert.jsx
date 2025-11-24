@@ -9,7 +9,7 @@ const SaveFormConnectionErrorAlert = ({ intl }) => (
   <Alert variant="danger" data-testid="connectionErrorAlert">
     <FormattedMessage
       id="authoring.alert.save.error.connection"
-      defaultMessage="We encountered a technical error when applying changes. This might be a temporary issue, so please try again in a few minutes. If the problem persists, please go to the {supportLink} for help."
+      defaultMessage="Chúng tôi gặp lỗi kỹ thuật khi áp dụng thay đổi. Đây có thể là sự cố tạm thời, vui lòng thử lại sau vài phút. Nếu vấn đề vẫn tiếp diễn, vui lòng truy cập {supportLink} để được trợ giúp."
       values={{
         supportLink: (
           <Alert.Link href={getConfig().SUPPORT_URL}>

@@ -177,7 +177,7 @@ const AdvancedSettings = ({ intl, courseId }) => {
                     <div className="small">
                       <FormattedMessage
                         id="course-authoring.advanced-settings.policies.description"
-                        defaultMessage="{notice} Do not modify these policies unless you are familiar with their purpose."
+                        defaultMessage="{notice} Không sửa đổi các chính sách này trừ khi bạn quen thuộc với mục đích của chúng."
                         values={{ notice: <strong>Warning:  </strong> }}
                       />
                     </div>
@@ -189,7 +189,7 @@ const AdvancedSettings = ({ intl, courseId }) => {
                       >
                         <FormattedMessage
                           id="course-authoring.advanced-settings.deprecated.button.text"
-                          defaultMessage="{visibility} deprecated settings"
+                          defaultMessage="{visibility} cài đặt đã lỗi thời"
                           values={{
                             visibility:
                                     showDeprecated ? intl.formatMessage(messages.deprecatedButtonHideText)

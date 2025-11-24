@@ -4,17 +4,17 @@ const messages = defineMessages({
 
   advanceProblemButtonLabel: {
     id: 'authoring.problemEditor.problemSelect.advanceButton.label',
-    defaultMessage: 'Advanced problem types',
+    defaultMessage: 'Loại bài tập nâng cao',
     description: 'Button label for advance problem types option',
   },
   advanceMenuTitle: {
     id: 'authoring.problemEditor.advanceProblem.menu.title',
-    defaultMessage: 'Advanced problems',
+    defaultMessage: 'Bài tập nâng cao',
     description: 'Title for advanced problem menu',
   },
   advanceMenuGoBack: {
     id: 'authoring.problemEditor.advanceProblem.menu.goBack',
-    defaultMessage: 'Go back',
+    defaultMessage: 'Quay lại',
     description: 'Return to the previous menu that shows basic problem types',
   },
   advanceProblemTypeLabel: {
@@ -30,29 +30,29 @@ const messages = defineMessages({
   supportStatusTooltipMessage: {
     id: 'authoring.problemEditor.advanceProblem.supportStatus.tooltipMessage',
     defaultMessage: `{supportStatus,  select,
-      Provisional {Provisionally supported tools might lack the robustness of functionality
-        that your courses require. edX does not have control over the quality of the software,
-        or of the content that can be provided using these tools.
+      Provisional {Các công cụ được hỗ trợ tạm thời có thể thiếu tính mạnh mẽ của chức năng
+        mà các khóa học của bạn yêu cầu. edX không kiểm soát chất lượng phần mềm,
+        hoặc nội dung có thể được cung cấp bằng các công cụ này.
         \n \n
-        Test these tools thoroughly before using them in your course, especially in graded
-        sections. Complete documentstion might not be available for provisionally supported
-        tools, or documentation might be available from sources other than edX.}
-      Not_supported {Tools with no support are not maintained by edX, and might be deprecated
-        in the future. They are not recommened for use in courses due to non-compliance with one
-        or more of the base requirements, such as testing, accessibility, internationalization,
-        and documentation.}
+        Hãy kiểm tra kỹ lưỡng các công cụ này trước khi sử dụng chúng trong khóa học của bạn, đặc biệt là trong các
+        phần được chấm điểm. Tài liệu đầy đủ có thể không có sẵn cho các công cụ được hỗ trợ tạm thời
+        hoặc tài liệu có thể có sẵn từ các nguồn khác ngoài edX.}
+      Not_supported {Các công cụ không được hỗ trợ không được duy trì bởi edX, và có thể bị loại bỏ
+        trong tương lai. Chúng không được khuyến nghị sử dụng trong các khóa học do không tuân thủ một
+        hoặc nhiều yêu cầu cơ bản, chẳng hạn như kiểm tra, khả năng tiếp cận, quốc tế hóa,
+        và tài liệu.}
       other { } 
     }`,
     description: 'Message for support status tooltip',
   },
   previewTitle: {
     id: 'authoring.problemEditor.preview.title',
-    defaultMessage: '{previewTitle} problem',
+    defaultMessage: 'Bài tập {previewTitle}',
     description: 'Title for the problem preview column',
   },
   previewAltText: {
     id: 'authoring.problemEditor.preview.altText',
-    defaultMessage: `A preview illustration of a {problemType, select,
+    defaultMessage: `Hình minh họa xem trước của một {problemType, select,
       multiplechoiceresponse {single select}
       stringreponse {text input}
       numericalresponse {numerical input}
@@ -69,12 +69,12 @@ const messages = defineMessages({
   },
   learnMoreButtonLabel: {
     id: 'authoring.problemEditor.learnMoreButtonLabel.label',
-    defaultMessage: 'Learn more',
+    defaultMessage: 'Tìm hiểu thêm',
     description: 'Label for Learn more button',
   },
   learnMoreAdvancedButtonLabel: {
     id: 'authoring.problemEditor.advanceProblem.learnMoreButtonLabel.label',
-    defaultMessage: 'Learn more about advanced problem types',
+    defaultMessage: 'Tìm hiểu thêm về các loại bài tập nâng cao',
     description: 'Label for Learn more about advanced problem types button',
   },
 });

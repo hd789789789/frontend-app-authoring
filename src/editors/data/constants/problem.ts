@@ -152,51 +152,51 @@ export const ShowAnswerTypesKeys = StrictDict({
 export const ShowAnswerTypes = StrictDict({
   [ShowAnswerTypesKeys.ALWAYS]: {
     id: 'authoring.problemeditor.settings.showanswertype.always',
-    defaultMessage: 'Always',
+    defaultMessage: 'Luôn luôn',
   },
   [ShowAnswerTypesKeys.ANSWERED]: {
     id: 'authoring.problemeditor.settings.showanswertype.answered',
-    defaultMessage: 'Answered',
+    defaultMessage: 'Đã trả lời',
   },
   [ShowAnswerTypesKeys.ATTEMPTED]: {
     id: 'authoring.problemeditor.settings.showanswertype.attempted',
-    defaultMessage: 'Attempted or Past Due',
+    defaultMessage: 'Đã thử hoặc quá hạn',
   },
   [ShowAnswerTypesKeys.CLOSED]: {
     id: 'authoring.problemeditor.settings.showanswertype.closed',
-    defaultMessage: 'Closed',
+    defaultMessage: 'Đã đóng',
   },
   [ShowAnswerTypesKeys.FINISHED]: {
     id: 'authoring.problemeditor.settings.showanswertype.finished',
-    defaultMessage: 'Finished',
+    defaultMessage: 'Đã hoàn thành',
   },
   [ShowAnswerTypesKeys.CORRECT_OR_PAST_DUE]: {
     id: 'authoring.problemeditor.settings.showanswertype.correct_or_past_due',
-    defaultMessage: 'Correct or Past Due',
+    defaultMessage: 'Đúng hoặc quá hạn',
   },
   [ShowAnswerTypesKeys.PAST_DUE]: {
     id: 'authoring.problemeditor.settings.showanswertype.past_due',
-    defaultMessage: 'Past Due',
+    defaultMessage: 'Quá hạn',
   },
   [ShowAnswerTypesKeys.NEVER]: {
     id: 'authoring.problemeditor.settings.showanswertype.never',
-    defaultMessage: 'Never',
+    defaultMessage: 'Không bao giờ',
   },
   [ShowAnswerTypesKeys.AFTER_SOME_NUMBER_OF_ATTEMPTS]: {
     id: 'authoring.problemeditor.settings.showanswertype.after_attempts',
-    defaultMessage: 'After Some Number of Attempts',
+    defaultMessage: 'Sau một số lần thử',
   },
   [ShowAnswerTypesKeys.AFTER_ALL_ATTEMPTS]: {
     id: 'authoring.problemeditor.settings.showanswertype.after_all_attempts',
-    defaultMessage: 'After All Attempts',
+    defaultMessage: 'Sau tất cả các lần thử',
   },
   [ShowAnswerTypesKeys.AFTER_ALL_ATTEMPTS_OR_CORRECT]: {
     id: 'authoring.problemeditor.settings.showanswertype.after_all_attempts_or_correct',
-    defaultMessage: 'After All Attempts or Correct',
+    defaultMessage: 'Sau tất cả các lần thử hoặc đúng',
   },
   [ShowAnswerTypesKeys.ATTEMPTED_NO_PAST_DUE]: {
     id: 'authoring.problemeditor.settings.showanswertype.attempted_no_past_due',
-    defaultMessage: 'Attempted',
+    defaultMessage: 'Đã thử',
   },
 } as const);
 
@@ -210,19 +210,19 @@ export const RandomizationTypesKeys = StrictDict({
 export const RandomizationTypes = StrictDict({
   [RandomizationTypesKeys.ALWAYS]: {
     id: 'authoring.problemeditor.settings.RandomizationTypes.always',
-    defaultMessage: 'Always',
+    defaultMessage: 'Luôn luôn',
   },
   [RandomizationTypesKeys.NEVER]: {
     id: 'authoring.problemeditor.settings.RandomizationTypes.never',
-    defaultMessage: 'Never',
+    defaultMessage: 'Không bao giờ',
   },
   [RandomizationTypesKeys.ONRESET]: {
     id: 'authoring.problemeditor.settings.RandomizationTypes.onreset',
-    defaultMessage: 'On Reset',
+    defaultMessage: 'Khi đặt lại',
   },
   [RandomizationTypesKeys.PERSTUDENT]: {
     id: 'authoring.problemeditor.settings.RandomizationTypes.perstudent',
-    defaultMessage: 'Per Student',
+    defaultMessage: 'Theo từng sinh viên',
   },
 } as const);
 

@@ -56,7 +56,7 @@ const BbbSettings = ({
         <Form.Label as="planSelector" className="h6">
           <FormattedMessage
             id="authoring.live.bbb.selectPlan.label"
-            defaultMessage="Select a plan"
+            defaultMessage="Chọn một kế hoạch"
             description="Label for bbb plan selection"
           />
         </Form.Label>

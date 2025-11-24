@@ -6,7 +6,7 @@ const PermissionDeniedAlert = () => (
   <Alert variant="danger" data-testid="permissionDeniedAlert">
     <FormattedMessage
       id="authoring.alert.error.permission"
-      defaultMessage="You are not authorized to view this page. If you feel you should have access, please reach out to your course team admin to be given access."
+      defaultMessage="Bạn không được phép xem trang này. Nếu bạn cảm thấy mình cần được cấp quyền truy cập, vui lòng liên hệ với quản trị viên nhóm khóa học của bạn để được cấp quyền truy cập."
     />
   </Alert>
 );
