@@ -15,7 +15,7 @@ const messages = defineMessages({
   },
   dropdownHelpText: {
     id: 'course-authoring.schedule-section.details.dropdown.help-text',
-    defaultMessage: 'Xác định ngôn ngữ khóa học ở đây. Điều này được sử dụng để hỗ trợ người dùng tìm các khóa học được giảng dạy bằng một ngôn ngữ cụ thể. Nó cũng được sử dụng để bản địa hóa trường 'Từ:' trong email hàng loạt.',
+    defaultMessage: 'Xác định ngôn ngữ khóa học ở đây. Điều này được sử dụng để hỗ trợ người dùng tìm các khóa học được giảng dạy bằng một ngôn ngữ cụ thể. Nó cũng được sử dụng để bản địa hóa trường Từ: trong email hàng loạt.',
   },
   dropdownEmpty: {
     id: 'course-authoring.schedule-section.details.dropdown.empty',
