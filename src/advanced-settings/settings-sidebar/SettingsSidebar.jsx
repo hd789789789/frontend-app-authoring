@@ -27,7 +27,7 @@ const SettingsSidebar = ({ intl, courseId, proctoredExamSettingsUrl }) => (
     <p className="help-sidebar-about-descriptions">
       <FormattedMessage
         id="course-authoring.advanced-settings.about.description-3"
-        defaultMessage="{notice} Khi bạn nhập chuỗi làm giá trị chính sách, hãy đảm bảo rằng bạn sử dụng dấu ngoặc kép (") xung quanh chuỗi. Không sử dụng dấu ngoặc đơn (')."
+        defaultMessage="{notice} Khi bạn nhập chuỗi làm giá trị chính sách, hãy đảm bảo rằng bạn sử dụng dấu ngoặc kép xung quanh chuỗi. Không sử dụng dấu ngoặc đơn (')."
         values={{ notice: <strong>Note:</strong> }}
       />
     </p>
