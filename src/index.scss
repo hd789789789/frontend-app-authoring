@@ -70,3 +70,8 @@ mark {
 .border-left-purple {
   border-left: 3px solid #5E35B1 !important;
 }
+
+.border-bottom.border-light-400.mb-3 {
+  position: relative;
+  z-index: 1;
+}
