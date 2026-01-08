@@ -113,7 +113,7 @@ const messages = defineMessages({
   },
   promptTaxonomyExportId: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id',
-    defaultMessage: "Enter a Export ID for the new taxonomy. Should only contain alphanumeric characters or '_' '-' '.'",
+    defaultMessage: "Nhập Export ID cho phân loại mới. Chỉ được chứa các ký tự chữ số hoặc '_' '-' '.'",
   },
   promptTaxonomyExportIdRequired: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id.required',
@@ -121,7 +121,7 @@ const messages = defineMessages({
   },
   promptTaxonomyExportIdInvalid: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id.invalid',
-    defaultMessage: "Invalid Export ID. Should only contain alphanumeric characters or '_' '-' '.'",
+    defaultMessage: "Export ID không hợp lệ. Chỉ được chứa các ký tự chữ số hoặc '_' '-' '.'",
   },
   promptTaxonomyDescription: {
     id: 'course-authoring.import-tags.prompt.taxonomy-description',

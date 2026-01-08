@@ -19,7 +19,7 @@ const messages = defineMessages({
   },
   courseShortDescriptionHelpText: {
     id: 'course-authoring.schedule-section.introducing.course-short-description.help-text',
-    defaultMessage: 'Xuất hiện trên trang danh mục khóa học khi sinh viên di chuột qua tên khóa học. Giới hạn khoảng 150 ký tự',
+    defaultMessage: 'Xuất hiện trên trang danh mục khóa học khi sinh viên di chuột qua tên khóa học. Giới hạn khoảng 500 ký tự',
   },
   courseOverviewLabel: {
     id: 'course-authoring.schedule-section.introducing.course-overview.label',
